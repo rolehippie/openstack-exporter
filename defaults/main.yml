@@ -1,0 +1,45 @@
+# Standards: 1.2
+---
+# @var openstack_exporter_version:description: Version of the Docker image
+openstack_exporter_version: v1.2.0
+
+# @var openstack_exporter_image:description: Docker image to use and run
+openstack_exporter_image: "quay.io/niedbalski/openstack-exporter-linux-amd64:{{ openstack_exporter_version }}"
+
+# @var openstack_exporter_network:description: A Docker network to assign the container
+openstack_exporter_network:
+
+# @var openstack_exporter_publish:description: Publish the Docker image on thet binding
+openstack_exporter_publish: 9180
+
+# @var openstack_exporter_region_name:description: Name of the OpenStack region
+openstack_exporter_region_name: RegionOne
+
+# @var openstack_exporter_api_version:description: Version of the OpenStack identity API
+openstack_exporter_api_version: 3
+
+# @var openstack_exporter_identity_interface:description: Interface of the OpenStack identity API
+openstack_exporter_identity_interface: public
+
+# @var openstack_exporter_admin_username:description: Username to authenticate on OpenStack
+openstack_exporter_admin_username:
+
+# @var openstack_exporter_admin_password:description: Password to authenticate on OpenStack
+openstack_exporter_admin_password:
+
+# @var openstack_exporter_project_name:description: Name of the project
+openstack_exporter_project_name: admin
+
+# @var openstack_exporter_project_domain:description: Domain of the project
+openstack_exporter_project_domain: Default
+
+# @var openstack_exporter_user_domain:description: Domain of the users
+openstack_exporter_user_domain: Default
+
+# @var openstack_exporter_auth_url:description: URL to access the OpenStack identity API
+openstack_exporter_auth_url:
+
+# @var openstack_exporter_auth_verify:description: Verify the SSL certificate
+openstack_exporter_auth_verify: True
+
+...

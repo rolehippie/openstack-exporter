@@ -1,0 +1,14 @@
+clouds:
+  default:
+    region_name: {{ openstack_exporter_region_name }}
+    identity_api_version: {{ openstack_exporter_api_version }}
+    identity_interface: {{ openstack_exporter_identity_interface }}
+
+    auth:
+      username: {{ openstack_exporter_admin_username }}
+      password: {{ openstack_exporter_admin_password }}
+      project_name: {{ openstack_exporter_project_name }}
+      project_domain_name: {{ openstack_exporter_project_domain }}
+      user_domain_name: {{ openstack_exporter_user_domain }}
+      auth_url: {{ openstack_exporter_auth_url }}
+      verify: {{ openstack_exporter_auth_verify | lower }}

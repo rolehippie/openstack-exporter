@@ -1,0 +1,54 @@
+# Standards: 1.2
+---
+- name: Create openstack dir
+  file:
+    path: /etc/openstack
+    state: directory
+  tags:
+    - openstack-exporter
+
+- name: Write clouds config
+  notify:
+    - Restart openstack-exporter
+  template:
+    src: config.j2
+    dest: /etc/openstack/clouds.yaml
+  tags:
+    - openstack-exporter
+
+- name: Write default config
+  notify:
+    - Restart openstack-exporter
+  template:
+    src: default.j2
+    dest: /etc/default/openstack-exporter
+  tags:
+    - openstack-exporter
+
+- name: Prepare service file
+  notify:
+    - Restart openstack-exporter
+  template:
+    src: service.j2
+    dest: /etc/systemd/system/openstack-exporter.service
+  tags:
+    - openstack-exporter
+
+- name: Create docker network
+  when: openstack_exporter_network | default(False)
+  docker_network:
+    name: "{{ openstack_exporter_network }}"
+  tags:
+    - openstack-exporter
+
+- name: Start exporter service
+  systemd:
+    name: openstack-exporter
+    state: started
+    daemon_reload: True
+    masked: False
+    enabled: True
+  tags:
+    - openstack-exporter
+
+...
