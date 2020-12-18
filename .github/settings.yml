@@ -1,6 +1,6 @@
 ---
 repository:
-  name: rabbitmq-exporter
+  name: openstack-exporter
   description: Ansible role to install and configure a Prometheus exporter for OpenStack
   topics: ansible, role, ansible-role, hacktoberfest
 
