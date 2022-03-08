@@ -1,35 +1,36 @@
 # openstack-exporter
 
-[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/openstack-exporter) [![Testing Build](https://github.com/rolehippie/openstack-exporter/workflows/testing/badge.svg)](https://github.com/rolehippie/openstack-exporter/actions?query=workflow%3Atesting) [![Readme Build](https://github.com/rolehippie/openstack-exporter/workflows/readme/badge.svg)](https://github.com/rolehippie/openstack-exporter/actions?query=workflow%3Areadme) [![Galaxy Build](https://github.com/rolehippie/openstack-exporter/workflows/galaxy/badge.svg)](https://github.com/rolehippie/openstack-exporter/actions?query=workflow%3Agalaxy) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/openstack-exporter)](https://github.com/rolehippie/openstack-exporter/blob/master/LICENSE) 
+[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/openstack-exporter) [![Testing Build](https://github.com/rolehippie/openstack-exporter/workflows/testing/badge.svg)](https://github.com/rolehippie/openstack-exporter/actions?query=workflow%3Atesting) [![Readme Build](https://github.com/rolehippie/openstack-exporter/workflows/readme/badge.svg)](https://github.com/rolehippie/openstack-exporter/actions?query=workflow%3Areadme) [![Galaxy Build](https://github.com/rolehippie/openstack-exporter/workflows/galaxy/badge.svg)](https://github.com/rolehippie/openstack-exporter/actions?query=workflow%3Agalaxy) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/openstack-exporter)](https://github.com/rolehippie/openstack-exporter/blob/master/LICENSE)
 
-Ansible role to install and configure a Prometheus exporter for OpenStack. 
+Ansible role to install and configure a Prometheus exporter for OpenStack.
 
-## Sponsor 
+## Sponsor
 
-[![Proact Deutschland GmbH](https://proact.eu/wp-content/uploads/2020/03/proact-logo.png)](https://proact.eu) 
+[![Proact Deutschland GmbH](https://proact.eu/wp-content/uploads/2020/03/proact-logo.png)](https://proact.eu)
 
 Building and improving this Ansible role have been sponsored by my employer **Proact Deutschland GmbH**.
 
 ## Table of content
 
-* [Default Variables](#default-variables)
-  * [openstack_exporter_admin_password](#openstack_exporter_admin_password)
-  * [openstack_exporter_admin_username](#openstack_exporter_admin_username)
-  * [openstack_exporter_api_version](#openstack_exporter_api_version)
-  * [openstack_exporter_auth_url](#openstack_exporter_auth_url)
-  * [openstack_exporter_auth_verify](#openstack_exporter_auth_verify)
-  * [openstack_exporter_identity_interface](#openstack_exporter_identity_interface)
-  * [openstack_exporter_image](#openstack_exporter_image)
-  * [openstack_exporter_network](#openstack_exporter_network)
-  * [openstack_exporter_project_domain](#openstack_exporter_project_domain)
-  * [openstack_exporter_project_name](#openstack_exporter_project_name)
-  * [openstack_exporter_publish](#openstack_exporter_publish)
-  * [openstack_exporter_region_name](#openstack_exporter_region_name)
-  * [openstack_exporter_user_domain](#openstack_exporter_user_domain)
-  * [openstack_exporter_version](#openstack_exporter_version)
-* [Dependencies](#dependencies)
-* [License](#license)
-* [Author](#author)
+- [Default Variables](#default-variables)
+  - [openstack_exporter_admin_password](#openstack_exporter_admin_password)
+  - [openstack_exporter_admin_username](#openstack_exporter_admin_username)
+  - [openstack_exporter_api_version](#openstack_exporter_api_version)
+  - [openstack_exporter_auth_url](#openstack_exporter_auth_url)
+  - [openstack_exporter_auth_verify](#openstack_exporter_auth_verify)
+  - [openstack_exporter_identity_interface](#openstack_exporter_identity_interface)
+  - [openstack_exporter_image](#openstack_exporter_image)
+  - [openstack_exporter_network](#openstack_exporter_network)
+  - [openstack_exporter_project_domain](#openstack_exporter_project_domain)
+  - [openstack_exporter_project_name](#openstack_exporter_project_name)
+  - [openstack_exporter_publish](#openstack_exporter_publish)
+  - [openstack_exporter_region_name](#openstack_exporter_region_name)
+  - [openstack_exporter_user_domain](#openstack_exporter_user_domain)
+  - [openstack_exporter_version](#openstack_exporter_version)
+- [Discovered Tags](#discovered-tags)
+- [Dependencies](#dependencies)
+- [License](#license)
+- [Author](#author)
 
 ---
 
@@ -176,9 +177,14 @@ Version of the Docker image
 openstack_exporter_version: v1.2.0
 ```
 
+## Discovered Tags
+
+**_openstack-exporter_**
+
+
 ## Dependencies
 
-* [rolehippie.docker](https://github.com/rolehippie/docker)
+- [rolehippie.docker](https://github.com/rolehippie/docker)
 
 ## License
 
