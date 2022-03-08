@@ -4,6 +4,9 @@
   file:
     path: /etc/openstack
     state: directory
+    owner: root
+    group: root
+    mode: u=rwx,g=rx,o=rx
   tags:
     - openstack-exporter
 
@@ -13,6 +16,9 @@
   template:
     src: config.j2
     dest: /etc/openstack/clouds.yaml
+    owner: root
+    group: root
+    mode: u=rw,g=r,o=r
   tags:
     - openstack-exporter
 
@@ -22,6 +28,9 @@
   template:
     src: default.j2
     dest: /etc/default/openstack-exporter
+    owner: root
+    group: root
+    mode: u=rw,g=r,o=r
   tags:
     - openstack-exporter
 
@@ -31,6 +40,9 @@
   template:
     src: service.j2
     dest: /etc/systemd/system/openstack-exporter.service
+    owner: root
+    group: root
+    mode: u=rw,g=r,o=r
   tags:
     - openstack-exporter
 
