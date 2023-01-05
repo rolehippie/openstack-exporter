@@ -5,7 +5,7 @@
   vars:
     openstack_exporter_publish: 127.0.0.1:9180
   roles:
-    - role: docker
-    - role: openstack-exporter
+    - role: rolehippie.docker
+    - role: rolehippie.openstack_exporter
 
 ...
