@@ -5,7 +5,7 @@
 [![Readme Workflow](https://github.com/rolehippie/openstack-exporter/actions/workflows/readme.yml/badge.svg)](https://github.com/rolehippie/openstack-exporter/actions/workflows/readme.yml)
 [![Galaxy Workflow](https://github.com/rolehippie/openstack-exporter/actions/workflows/galaxy.yml/badge.svg)](https://github.com/rolehippie/openstack-exporter/actions/workflows/galaxy.yml)
 [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/openstack-exporter)](https://github.com/rolehippie/openstack-exporter/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/badge/role-rolehippie.openstack_exporter-blue)](https://galaxy.ansible.com/rolehippie/openstack_exporter)
+[![Ansible Role](https://img.shields.io/badge/role-rolehippie.openstack__exporter-blue)](https://galaxy.ansible.com/rolehippie/openstack_exporter)
 
 Ansible role to install and configure a Prometheus exporter for OpenStack.
 
