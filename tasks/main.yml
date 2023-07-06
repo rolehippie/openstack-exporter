@@ -46,10 +46,20 @@
   tags:
     - openstack-exporter
 
+- name: Pull docker image
+  when:
+    - openstack_exporter_pull_image
+  docker_image:
+    name: "{{ openstack_exporter_image }}"
+    source: pull
+  tags:
+    - openstack-exporter
+
 - name: Create docker network
-  when: openstack_exporter_network | default(False)
+  when:
+    - openstack_exporter_network | default(False)
   docker_network:
-    name: "{{ openstack_exporter_network }}"
+    name: '{{ openstack_exporter_network }}'
   tags:
     - openstack-exporter
 

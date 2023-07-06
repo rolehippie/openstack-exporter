@@ -28,6 +28,7 @@ Building and improving this Ansible role have been sponsored by my current and p
   - [openstack_exporter_project_domain](#openstack_exporter_project_domain)
   - [openstack_exporter_project_name](#openstack_exporter_project_name)
   - [openstack_exporter_publish](#openstack_exporter_publish)
+  - [openstack_exporter_pull_image](#openstack_exporter_pull_image)
   - [openstack_exporter_region_name](#openstack_exporter_region_name)
   - [openstack_exporter_user_domain](#openstack_exporter_user_domain)
   - [openstack_exporter_version](#openstack_exporter_version)
@@ -154,6 +155,16 @@ Publish the Docker image on thet binding
 
 ```YAML
 openstack_exporter_publish: 9180
+```
+
+### openstack_exporter_pull_image
+
+Pull image as part of the tasks
+
+#### Default value
+
+```YAML
+openstack_exporter_pull_image: true
 ```
 
 ### openstack_exporter_region_name

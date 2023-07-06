@@ -6,6 +6,9 @@ openstack_exporter_version: v1.2.0
 # @var openstack_exporter_image:description: Docker image to use and run
 openstack_exporter_image: "quay.io/niedbalski/openstack-exporter-linux-amd64:{{ openstack_exporter_version }}"
 
+# @var openstack_exporter_pull_image:description: Pull image as part of the tasks
+openstack_exporter_pull_image: True
+
 # @var openstack_exporter_network:description: A Docker network to assign the container
 openstack_exporter_network:
 
