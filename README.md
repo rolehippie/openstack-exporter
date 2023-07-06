@@ -113,7 +113,7 @@ Docker image to use and run
 #### Default value
 
 ```YAML
-openstack_exporter_image: quay.io/niedbalski/openstack-exporter-linux-amd64:{{ openstack_exporter_version
+openstack_exporter_image: ghcr.io/openstack-exporter/openstack-exporter:{{ openstack_exporter_version
   }}
 ```
 
@@ -194,7 +194,7 @@ Version of the Docker image
 #### Default value
 
 ```YAML
-openstack_exporter_version: v1.2.0
+openstack_exporter_version: 1.2.0
 ```
 
 ## Discovered Tags
