@@ -204,6 +204,7 @@ openstack_exporter_version: 1.6.0
 ## Dependencies
 
 - [rolehippie.docker](https://github.com/rolehippie/docker)
+- [community.docker](https://github.com/ansible-collections/community.docker)
 
 ## License
 
