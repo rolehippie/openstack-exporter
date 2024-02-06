@@ -1,6 +1,6 @@
 ---
 - name: Restart openstack-exporter
-  systemd:
+  ansible.builtin.systemd:
     name: openstack-exporter
     state: restarted
     daemon_reload: yes

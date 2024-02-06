@@ -1,6 +1,6 @@
 ---
 - name: Create openstack dir
-  file:
+  ansible.builtin.file:
     path: /etc/openstack
     state: directory
     owner: root
@@ -12,7 +12,7 @@
 - name: Write clouds config
   notify:
     - Restart openstack-exporter
-  template:
+  ansible.builtin.template:
     src: config.j2
     dest: /etc/openstack/clouds.yaml
     owner: root
@@ -24,7 +24,7 @@
 - name: Write default config
   notify:
     - Restart openstack-exporter
-  template:
+  ansible.builtin.template:
     src: default.j2
     dest: /etc/default/openstack-exporter
     owner: root
@@ -36,7 +36,7 @@
 - name: Prepare service file
   notify:
     - Restart openstack-exporter
-  template:
+  ansible.builtin.template:
     src: service.j2
     dest: /etc/systemd/system/openstack-exporter.service
     owner: root
@@ -48,7 +48,7 @@
 - name: Pull docker image
   when:
     - openstack_exporter_pull_image
-  docker_image:
+  community.docker.docker_image:
     name: "{{ openstack_exporter_image }}"
     source: pull
   tags:
@@ -57,13 +57,13 @@
 - name: Create docker network
   when:
     - openstack_exporter_network | default(False)
-  docker_network:
+  community.docker.docker_network:
     name: '{{ openstack_exporter_network }}'
   tags:
     - openstack-exporter
 
 - name: Start exporter service
-  systemd:
+  ansible.builtin.systemd:
     name: openstack-exporter
     state: started
     daemon_reload: True
