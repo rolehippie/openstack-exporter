@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.0.0](https://github.com/rolehippie/openstack-exporter/compare/v1.1.0...v2.0.0) (2024-02-12)
+
+
+### Features
+
+* drop support for ubuntu 18.04 ([9a67364](https://github.com/rolehippie/openstack-exporter/commit/9a67364c30f64c7a202881da75a35f6b64ec2b9f))
+* used full qualified collection names ([e122fbb](https://github.com/rolehippie/openstack-exporter/commit/e122fbbbc8b2fbbed2aa35f676b0c5a8c14967f1))
+
+
+### Bugfixes
+
+* remove meta requirements and document used collections ([c3746d0](https://github.com/rolehippie/openstack-exporter/commit/c3746d076a083a66385380df30acbfb5e12e8300))
+
 ## [1.1.0](https://github.com/rolehippie/openstack-exporter/compare/v1.0.0...v1.1.0) (2023-07-10)
 
 
