@@ -193,7 +193,7 @@ Version of the Docker image
 #### Default value
 
 ```YAML
-openstack_exporter_version: 1.6.0
+openstack_exporter_version: 1.7.0
 ```
 
 ## Discovered Tags
