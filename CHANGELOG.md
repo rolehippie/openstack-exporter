@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/rolehippie/openstack-exporter/compare/v2.0.0...v2.1.0) (2024-03-18)
+
+
+### Features
+
+* **deps:** update dependency openstack-exporter/openstack-exporter to v1.7.0 ([d320da8](https://github.com/rolehippie/openstack-exporter/commit/d320da8fe76a70d82c2c17b29060388f445e6d19))
+
 ## [2.0.0](https://github.com/rolehippie/openstack-exporter/compare/v1.1.0...v2.0.0) (2024-02-12)
 
 
