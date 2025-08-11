@@ -1,4 +1,4 @@
-# openstack-exporter
+# workspace
 
 [![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/openstack-exporter)
 [![General Workflow](https://github.com/rolehippie/openstack-exporter/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/openstack-exporter/actions/workflows/general.yml)
@@ -112,8 +112,8 @@ Docker image to use and run
 #### Default value
 
 ```YAML
-openstack_exporter_image: ghcr.io/openstack-exporter/openstack-exporter:{{ openstack_exporter_version
-  }}
+openstack_exporter_image: ghcr.io/openstack-exporter/openstack-exporter:{{ 
+  openstack_exporter_version }}
 ```
 
 ### openstack_exporter_network
@@ -199,7 +199,6 @@ openstack_exporter_version: 1.7.0
 ## Discovered Tags
 
 **_openstack-exporter_**
-
 
 ## Dependencies
 
