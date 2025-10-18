@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/rolehippie/openstack-exporter/compare/v2.1.0...v2.2.0) (2025-10-18)
+
+
+### Features
+
+* apply new repo structure and update linting ([d7b6239](https://github.com/rolehippie/openstack-exporter/commit/d7b62396710554aef87b510a7fd51bac53b14364))
+
 ## [2.1.0](https://github.com/rolehippie/openstack-exporter/compare/v2.0.0...v2.1.0) (2024-03-18)
 
 
