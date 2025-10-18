@@ -16,10 +16,10 @@ ExecStart=/usr/bin/docker run --rm \
   --name %p \
   --hostname %p \
   --env-file /etc/default/openstack-exporter \
-{% if openstack_exporter_network | default(False) %}
+{% if openstack_exporter_network | default(false) %}
   --network {{ openstack_exporter_network }} \
 {% endif %}
-{% if openstack_exporter_publish | default(False) %}
+{% if openstack_exporter_publish | default(false) %}
   --publish {{ openstack_exporter_publish }}:9180 \
 {% endif %}
   --volume /etc/openstack/clouds.yaml:/etc/openstack/clouds.yaml \

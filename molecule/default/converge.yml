@@ -1,8 +1,6 @@
 ---
 - name: Converge
   hosts: all
-  vars:
-    openstack_exporter_publish: 127.0.0.1:9180
   roles:
     - role: rolehippie.docker
     - role: rolehippie.openstack_exporter

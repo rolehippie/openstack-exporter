@@ -7,7 +7,7 @@ openstack_exporter_version: 1.7.0
 openstack_exporter_image: "ghcr.io/openstack-exporter/openstack-exporter:{{ openstack_exporter_version }}"
 
 # @var openstack_exporter_pull_image:description: Pull image as part of the tasks
-openstack_exporter_pull_image: True
+openstack_exporter_pull_image: true
 
 # @var openstack_exporter_network:description: A Docker network to assign the container
 openstack_exporter_network:
@@ -43,6 +43,6 @@ openstack_exporter_user_domain: Default
 openstack_exporter_auth_url:
 
 # @var openstack_exporter_auth_verify:description: Verify the SSL certificate
-openstack_exporter_auth_verify: True
+openstack_exporter_auth_verify: true
 
 ...
