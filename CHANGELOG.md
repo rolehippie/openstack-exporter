@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.0](https://github.com/rolehippie/openstack-exporter/compare/v2.2.0...v3.0.0) (2025-11-17)
+
+
+### Features
+
+* **major:** update dependency community.docker to v5 ([#27](https://github.com/rolehippie/openstack-exporter/issues/27)) ([03ef395](https://github.com/rolehippie/openstack-exporter/commit/03ef3957a3fb53f99a6f8232879b172ef0ab6246))
+
 ## [2.2.0](https://github.com/rolehippie/openstack-exporter/compare/v2.1.0...v2.2.0) (2025-10-18)
 
 
