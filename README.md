@@ -112,8 +112,7 @@ Docker image to use and run
 #### Default value
 
 ```YAML
-openstack_exporter_image: ghcr.io/openstack-exporter/openstack-exporter:{{ 
-  openstack_exporter_version }}
+openstack_exporter_image: ghcr.io/openstack-exporter/openstack-exporter:{{ openstack_exporter_version }}
 ```
 
 ### openstack_exporter_network
