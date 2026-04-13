@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.2.0](https://github.com/rolehippie/openstack-exporter/compare/v3.1.0...v3.2.0) (2026-04-13)
+
+### Dependencies
+
+* **minor:** update dependency community.docker to >=5.2.0,<5.3.0 ([#40](https://github.com/rolehippie/openstack-exporter/issues/40)) ([c36b2b0](https://github.com/rolehippie/openstack-exporter/commit/c36b2b092baadd3630391d405312c18b2c805e7b))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([30aec4f](https://github.com/rolehippie/openstack-exporter/commit/30aec4ff44284ff027bf43f820ecd747a6e38626))
+
 ## [3.1.0](https://github.com/rolehippie/openstack-exporter/compare/v3.0.0...v3.1.0) (2026-04-06)
 
 ### Dependencies
