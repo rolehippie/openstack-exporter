@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.0](https://github.com/rolehippie/openstack-exporter/compare/v3.3.0...v3.4.0) (2026-08-10)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-doctor to v8.4.0 ([#47](https://github.com/rolehippie/openstack-exporter/issues/47)) ([369886d](https://github.com/rolehippie/openstack-exporter/commit/369886df108ac981db1a0c98663a087d9872cbb5))
+* **patch:** update dependency python to v3.14.7 ([#45](https://github.com/rolehippie/openstack-exporter/issues/45)) ([ea87987](https://github.com/rolehippie/openstack-exporter/commit/ea87987345fb051a77b5ec657466f9edb7348c87))
+
 ## [3.3.0](https://github.com/rolehippie/openstack-exporter/compare/v3.2.0...v3.3.0) (2026-07-27)
 
 ## [3.2.0](https://github.com/rolehippie/openstack-exporter/compare/v3.1.0...v3.2.0) (2026-04-13)
