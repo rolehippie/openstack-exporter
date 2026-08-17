@@ -1,5 +1,14 @@
 # Changelog
 
+## [3.5.0](https://github.com/rolehippie/openstack-exporter/compare/v3.4.0...v3.5.0) (2026-08-17)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-lint to v26.8.0 ([#50](https://github.com/rolehippie/openstack-exporter/issues/50)) ([a4405a9](https://github.com/rolehippie/openstack-exporter/commit/a4405a9d4003b9934409336eab5aa9b229d31dcb))
+* **minor:** update dependency pipx:molecule to v26.8.0 ([#51](https://github.com/rolehippie/openstack-exporter/issues/51)) ([de11157](https://github.com/rolehippie/openstack-exporter/commit/de111572efd3f5049c41b52d71803955330c4217))
+* **patch:** update dependency pipx:ansible-core to v2.21.3 ([#48](https://github.com/rolehippie/openstack-exporter/issues/48)) ([910a964](https://github.com/rolehippie/openstack-exporter/commit/910a964b0bd9861d1ebe96b3f3c51614ab7073b3))
+* **patch:** update dependency pre-commit to v4.6.2 ([#49](https://github.com/rolehippie/openstack-exporter/issues/49)) ([33bcc94](https://github.com/rolehippie/openstack-exporter/commit/33bcc945fc4311bf8e606325acf80a4b5ef3d28d))
+
 ## [3.4.0](https://github.com/rolehippie/openstack-exporter/compare/v3.3.0...v3.4.0) (2026-08-10)
 
 ### Dependencies
