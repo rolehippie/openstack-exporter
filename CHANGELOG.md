@@ -1,5 +1,15 @@
 # Changelog
 
+## [3.6.0](https://github.com/rolehippie/openstack-exporter/compare/v3.5.1...v3.6.0) (2026-09-07)
+
+### Features
+
+* add separate requirements for molecule run ([2110f35](https://github.com/rolehippie/openstack-exporter/commit/2110f35962ef8924f026fa12410612acb83be6e5))
+
+### Dependencies
+
+* **minor:** update dependency community.docker to >=5.3.0,<5.4.0 ([#53](https://github.com/rolehippie/openstack-exporter/issues/53)) ([c278976](https://github.com/rolehippie/openstack-exporter/commit/c278976dae2ca567d4f38388ab5f0efc47d23d84))
+
 ## [3.5.1](https://github.com/rolehippie/openstack-exporter/compare/v3.5.0...v3.5.1) (2026-08-31)
 
 ### Dependencies
