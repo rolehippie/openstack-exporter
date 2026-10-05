@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.7.0](https://github.com/rolehippie/openstack-exporter/compare/v3.6.0...v3.7.0) (2026-10-05)
+
+### Dependencies
+
+* **minor:** update dependency community.docker to >=5.4.0,<5.5.0 ([#61](https://github.com/rolehippie/openstack-exporter/issues/61)) ([ad7cf59](https://github.com/rolehippie/openstack-exporter/commit/ad7cf59c1a86d877e40919dc6545b173c869ebd0))
+* **mise:** update dependency pipx:ansible-core to v2.21.4 ([#54](https://github.com/rolehippie/openstack-exporter/issues/54)) ([8028d27](https://github.com/rolehippie/openstack-exporter/commit/8028d27ef826310bfb479bbff8913f0cbbbc5f02))
+* **mise:** update dependency pipx:ansible-doctor to v8.4.2 ([#56](https://github.com/rolehippie/openstack-exporter/issues/56)) ([205558b](https://github.com/rolehippie/openstack-exporter/commit/205558bfc78ba96d86e01b043d90fcc6c9845fd1))
+* **mise:** update dependency pipx:ansible-lint to v26.9.0 ([#57](https://github.com/rolehippie/openstack-exporter/issues/57)) ([3c7037a](https://github.com/rolehippie/openstack-exporter/commit/3c7037ab97d626e562b0944a439b4565bda94bdb))
+* **mise:** update dependency pipx:molecule to v26.9.0 ([#58](https://github.com/rolehippie/openstack-exporter/issues/58)) ([9d7c571](https://github.com/rolehippie/openstack-exporter/commit/9d7c571b57510618e0c0cbc3d58c4d2c2a9d134f))
+* **mise:** update dependency prek to v0.5.3 ([#55](https://github.com/rolehippie/openstack-exporter/issues/55)) ([fb4cc06](https://github.com/rolehippie/openstack-exporter/commit/fb4cc06742790f0675c5ad6d6e8132e8708f3b49))
+* **mise:** update dependency prek to v0.5.4 ([#59](https://github.com/rolehippie/openstack-exporter/issues/59)) ([98f2896](https://github.com/rolehippie/openstack-exporter/commit/98f289648cfa2a8b0938e03b087e6473bfff7ee9))
+* **mise:** update dependency prek to v0.5.5 ([#62](https://github.com/rolehippie/openstack-exporter/issues/62)) ([c132315](https://github.com/rolehippie/openstack-exporter/commit/c1323151a94a14bbc0d4ce674e55cd9eb437c3bb))
+
 ## [3.6.0](https://github.com/rolehippie/openstack-exporter/compare/v3.5.1...v3.6.0) (2026-09-07)
 
 ### Features
